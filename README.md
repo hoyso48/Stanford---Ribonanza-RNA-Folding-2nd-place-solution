@@ -41,7 +41,7 @@ mkdir datamount
 kaggle competitions download -c stanford-ribonanza-rna-folding -p ./datamount
 unzip ./datamount/stanford-ribonanza-rna-folding.zip 
 ```
-Or manually download it https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data in ./datamount and unzip it.
+Or manually download the data https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data in the folder './datamount' and unzip it.
 
 3. prepare preprocessed dataset including additional features.
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
@@ -50,5 +50,5 @@ kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset -p ./
 unzip ./datamount/stanford-ribonanza-rna-folding-dataset.zip 
 ```
 
-Or manually download it https://www.kaggle.com/datasets/hoyso48/stanford-ribonanza-rna-folding-dataset in ./datamount and unzip it.
-Or you can follow notebooks in the folder prepare_data to generate additional features yourself.
+Or manually download  the data https://www.kaggle.com/datasets/hoyso48/stanford-ribonanza-rna-folding-dataset in the folder './datamount' and unzip it.
+Or you can follow notebooks in the folder 'prepare_data' to generate additional features yourself.
