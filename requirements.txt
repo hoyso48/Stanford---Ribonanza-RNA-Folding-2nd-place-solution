@@ -1,0 +1,10 @@
+torch >= 2.1.0
+torchvision
+torchaudio
+pandas
+matplotlib 
+tqdm 
+scikit-learn 
+pyarrow 
+fastai 
+accelerate
