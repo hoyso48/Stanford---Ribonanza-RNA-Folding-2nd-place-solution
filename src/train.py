@@ -28,8 +28,8 @@ class CFG:
     n_splits = 5
     fold = 0
     use_all_train = False #use all train data or not, fold will be ignored when True.
-    max_len = 206 #input length will never exceed this value, -1 for unbounded. set it to 206 when num_processes>1
-    dynamic_len = False #apply dynamic padding on batch or not. If False, input length will be fixed to max_len(max_len must be > 0 for this case). set it to False when num_processes>1
+    max_len = -1 #input length will never exceed this value, -1 for unbounded. set it to 206 when num_processes>1
+    dynamic_len = True #apply dynamic padding on batch or not. If False, input length will be fixed to max_len(max_len must be > 0 for this case). set it to False when num_processes>1
     
     mixed_precision = True
 
