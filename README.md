@@ -53,8 +53,8 @@ Or manually download the data https://www.kaggle.com/competitions/stanford-ribon
 
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
-kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset -p ./datamount
-unzip ./datamount/stanford-ribonanza-rna-folding-dataset.zip 
+kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset
+unzip stanford-ribonanza-rna-folding-dataset.zip 
 ```
 
 Or manually download  the data https://www.kaggle.com/datasets/hoyso48/stanford-ribonanza-rna-folding-dataset in the folder './datamount' and unzip it.
