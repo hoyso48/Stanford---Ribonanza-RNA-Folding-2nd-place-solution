@@ -50,7 +50,7 @@ mkdir datamount
 kaggle competitions download -c stanford-ribonanza-rna-folding -p ./datamount
 unzip ./datamount/stanford-ribonanza-rna-folding.zip 
 ```
-Or manually download the data https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data in the folder './datamount' and unzip it.
+Or manually download the data https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data, place it in the folder './datamount' and unzip it.
 
 3. prepare preprocessed dataset including additional features.
 
