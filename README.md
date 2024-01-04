@@ -27,7 +27,7 @@ these features only marginally helped (about -0.0005). Therefore, I believe thes
 
 ![](model_architecture.png)
 
-## How to reproduce solution
+## How to reproduce the solution
 1. install required packages
 ```
 git clone https://github.com/hoyso48/Stanford---Ribonanza-RNA-Folding-2nd-place-solution
@@ -61,3 +61,7 @@ chmod +x ./scripts/run_make_submission.sh #inference and generate submission fil
 chmod +x ./scripts/run_all.sh #run all above
 ./scripts/run_all.sh
 ```
+## references
+[1]Sehoon Kim, Amir Gholami, Albert Shaw, Nicholas Lee, Karttikeya Mangalam, Jitendra Malik, Michael W. Mahoney, and Kurt Keutzer. 2022. Squeezeformer: An Efficient Transformer for Automatic Speech Recognition. arXiv:2206.00888 [eess.AS]. [https://doi.org/10.48550/arXiv.2206.00888](url)
+
+[2]Ofir Press, Noah A. Smith, Mike Lewis. 2022. Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation. arXiv:2108.12409 [cs.CL]. [https://doi.org/10.48550/arXiv.2108.12409](url)
