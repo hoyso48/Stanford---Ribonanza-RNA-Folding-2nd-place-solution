@@ -62,6 +62,11 @@ chmod +x ./scripts/run_make_submission.sh #inference and generate submission fil
 chmod +x ./scripts/run_all.sh #run all above
 ./scripts/run_all.sh
 ```
+
+5.(Optional) submit to kaggle competition site
+```
+kaggle competitions submit -c stanford-ribonanza-rna-folding -f ./outputs/submission.parquet -m "Message"
+```
 ## References
 [1]Sehoon Kim, Amir Gholami, Albert Shaw, Nicholas Lee, Karttikeya Mangalam, Jitendra Malik, Michael W. Mahoney, and Kurt Keutzer. 2022. Squeezeformer: An Efficient Transformer for Automatic Speech Recognition. arXiv:2206.00888 [eess.AS]. [https://doi.org/10.48550/arXiv.2206.00888](url)
 
