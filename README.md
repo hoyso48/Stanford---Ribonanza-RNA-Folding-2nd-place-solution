@@ -30,7 +30,7 @@ I used single RTX 4090 GPU but the code supports multi-GPU(DDP) training. You ca
 
 At least 64GB of system memory(RAM) is recommended to avoid OOM.
 
-At least 24GB of VRAM needed to guarantee the reproducibility if you use single GPU. Consider lowering train_batch_size, valid_batch_size and lr in this case. 
+At least 24GB of VRAM needed to guarantee the reproducibility if you use single GPU. Consider lowering the train_batch_size, valid_batch_size and lr in this case. 
 
 training(5xfold + 4xseed) takes over 120 hours with 1xRTX4090. 
 
