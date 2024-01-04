@@ -27,7 +27,7 @@ The most crucial part of my solution is how to utilize the bpp matrix. I applied
 
 ## Hardware
 I used single RTX 4090 GPU but the code supports multi-GPU(DDP) training. You can set num_processes=num_gpus in the scripts(and see class CFG in train.py for the configurations requirements for DDP). Note that you should divide the train_batch_size by num_gpus to gaurantee the reproducibility.
-At least 64GB of system memory(RAM) is recommended to avoid OOM.
+At least 48GB of system memory(RAM) is recommended to avoid OOM.
 
 training(5xfold + 4xseed) takes over 120 hours with 1xRTX4090. 
 
