@@ -28,7 +28,7 @@ these features only marginally helped (about -0.0005). Therefore, I believe thes
 ![](model_architecture.png)
 
 ## How to reproduce the solution
-1. install required packages
+1. install required packages.
 ```
 git clone https://github.com/hoyso48/Stanford---Ribonanza-RNA-Folding-2nd-place-solution
 cd Stanford---Ribonanza-RNA-Folding-2nd-place-solution
@@ -57,7 +57,7 @@ And you can get all the model weights in the folder 'model_weights' that can be 
 
 Or you can follow notebooks in the folder 'prepare_data' to generate additional features yourself.
 
-4. training / inference to generate submission.parquet
+4. training / inference to generate submission.parquet.
 ```
 chmod +x ./scripts/run_5fold_snfilter1_ep60.sh #(optional)5fold training, to check validation score with minimal config.
 chmod +x ./scripts/run_4seed_snfilter0_ep200.sh #4x seed training using all training data
@@ -66,7 +66,7 @@ chmod +x ./scripts/run_all.sh #run all above
 ./scripts/run_all.sh
 ```
 
-5. (Optional) submit to kaggle
+5. (Optional) submit to kaggle.
 ```
 kaggle competitions submit -c stanford-ribonanza-rna-folding -f ./outputs/submission.parquet -m "Message"
 ```
