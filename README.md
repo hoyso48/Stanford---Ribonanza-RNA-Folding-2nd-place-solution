@@ -63,7 +63,7 @@ chmod +x ./scripts/run_all.sh #run all above
 ./scripts/run_all.sh
 ```
 
-5. (Optional) submit to kaggle competition site
+5. (Optional) submit to kaggle
 ```
 kaggle competitions submit -c stanford-ribonanza-rna-folding -f ./outputs/submission.parquet -m "Message"
 ```
