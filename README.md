@@ -34,6 +34,13 @@ git clone https://github.com/hoyso48/Stanford---Ribonanza-RNA-Folding-2nd-place-
 cd Stanford---Ribonanza-RNA-Folding-2nd-place-solution
 pip install -r requirements.txt
 ```
+2.download competition dataset.
+If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
+```
+kaggle competitions download -c stanford-ribonanza-rna-folding
+
+```
+```
 2.prepare preprocessed dataset.
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
