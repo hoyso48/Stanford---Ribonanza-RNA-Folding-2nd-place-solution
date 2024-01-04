@@ -42,6 +42,7 @@ kaggle competitions download -c stanford-ribonanza-rna-folding -p ./datamount
 unzip ./datamount/stanford-ribonanza-rna-folding.zip 
 ```
 Or manually download it https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data in ./datamount and unzip it.
+
 3. prepare preprocessed dataset.
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
