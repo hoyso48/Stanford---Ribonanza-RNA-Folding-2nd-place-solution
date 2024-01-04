@@ -49,3 +49,5 @@ If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use follo
 kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset -p ./datamount
 unzip ./datamount/stanford-ribonanza-rna-folding-dataset.zip 
 ```
+
+Or manually download it https://www.kaggle.com/datasets/hoyso48/stanford-ribonanza-rna-folding-dataset in ./datamount and unzip it.
