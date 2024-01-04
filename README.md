@@ -47,5 +47,4 @@ Or manually download it https://www.kaggle.com/competitions/stanford-ribonanza-r
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
 kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset
-
 ```
