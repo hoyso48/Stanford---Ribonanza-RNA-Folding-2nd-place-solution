@@ -25,6 +25,9 @@ The most crucial part of my solution is how to utilize the bpp matrix. I applied
 
 ![](model_architecture.png)
 
+## Hardware
+I used single RTX 4090 GPU but the code supports multi-GPU(DDP) training. You can set num_processes=num_gpus in the scripts. Note that you should divide the train_batch_size by num_gpus to gaurantee the reproducibility.
+
 ## How to reproduce the solution
 1. install required packages.
 ```
