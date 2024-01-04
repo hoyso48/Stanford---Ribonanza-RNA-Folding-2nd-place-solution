@@ -25,3 +25,4 @@ I used some features found useful in the OpenVaccine Challenge, to help fast ini
 
 these features only marginally helped (about -0.0005). Therefore, I believe these features should be removed in the future for the simplicity.
 
+![](model_architecture.png)
