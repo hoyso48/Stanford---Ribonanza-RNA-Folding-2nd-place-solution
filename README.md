@@ -12,8 +12,6 @@ see https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussio
 - Weighted loss with signal_to_noise, with longer epochs.
 - Additional features for minor score improvements.
 
-The most crucial part of my solution is how to utilize the bpp matrix. I applied a simple shallow Conv2DNet to bpp and directly added it to the attention matrix.
-
 **Features:**
 
 I used some features found useful in the OpenVaccine Challenge, to help fast initial convergence. These included:
@@ -22,6 +20,8 @@ I used some features found useful in the OpenVaccine Challenge, to help fast ini
 - eternafold mfe.
 - predicted Looptype with eternafold mfe.
 - bpp features (sum, nzero, max).
+
+The most crucial part of my solution is how to utilize the bpp matrix. I applied a simple shallow Conv2DNet to bpp and directly added it to the attention matrix.
 
 ![](model_architecture.png)
 
