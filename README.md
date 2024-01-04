@@ -12,7 +12,7 @@ see https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussio
 - Weighted loss with signal_to_noise, with longer epochs.
 - Additional features for minor score improvements.
 
-I adopted Squeezeformer[2], which I became familiar with after the ASL fingerspelling competition.Thanks to @christofhenkel and @goldenlock for their solutions in the last ASL competition. The most crucial part of my solution is how to utilize the bpp matrix. I applied a simple shallow Conv2DNet to bpp and directly added it to the attention matrix.
+The most crucial part of my solution is how to utilize the bpp matrix. I applied a simple shallow Conv2DNet to bpp and directly added it to the attention matrix.
 
 **Features:**
 
