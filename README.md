@@ -28,9 +28,15 @@ these features only marginally helped (about -0.0005). Therefore, I believe thes
 ![](model_architecture.png)
 
 ## Preparations
-install required packages
+1.install required packages
 ```
 git clone https://github.com/hoyso48/Stanford---Ribonanza-RNA-Folding-2nd-place-solution
 cd Stanford---Ribonanza-RNA-Folding-2nd-place-solution
 pip install -r requirements.txt
+```
+2.prepare preprocessed dataset.
+If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
+```
+kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset
+
 ```
