@@ -2,7 +2,7 @@
 
 2nd-place solution to the [Stanford - Ribonanza RNA Folding competition](https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding) on kaggle. 
 
-see https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460316 for more details
+see https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460316 for more details.
 
 **Keypoints:**
 
@@ -26,3 +26,5 @@ I used some features found useful in the OpenVaccine Challenge, to help fast ini
 these features only marginally helped (about -0.0005). Therefore, I believe these features should be removed in the future for the simplicity.
 
 ![](model_architecture.png)
+
+## Preparations
