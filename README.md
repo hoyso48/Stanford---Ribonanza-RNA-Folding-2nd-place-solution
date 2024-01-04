@@ -37,8 +37,9 @@ pip install -r requirements.txt
 2. download competition dataset.
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
-kaggle competitions download -c stanford-ribonanza-rna-folding
-
+mkdir datamount
+kaggle competitions download -c stanford-ribonanza-rna-folding -p ./datamount
+unzip ./datamount/stanford-ribonanza-rna-folding.zip 
 ```
 ```
 3. prepare preprocessed dataset.
