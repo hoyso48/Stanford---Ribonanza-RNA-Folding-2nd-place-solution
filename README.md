@@ -51,4 +51,4 @@ unzip ./datamount/stanford-ribonanza-rna-folding-dataset.zip
 ```
 
 Or manually download it https://www.kaggle.com/datasets/hoyso48/stanford-ribonanza-rna-folding-dataset in ./datamount and unzip it.
-Or you can follow notebooks in /prepare_data to generate additional features yourself.
+Or you can follow notebooks in the folder prepare_data to generate additional features yourself.
