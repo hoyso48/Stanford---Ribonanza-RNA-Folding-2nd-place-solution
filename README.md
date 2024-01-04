@@ -35,6 +35,7 @@ cd Stanford---Ribonanza-RNA-Folding-2nd-place-solution
 pip install -r requirements.txt
 ```
 2. download competition dataset.
+
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
 mkdir datamount
@@ -44,6 +45,7 @@ unzip ./datamount/stanford-ribonanza-rna-folding.zip
 Or manually download the data https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data in the folder './datamount' and unzip it.
 
 3. prepare preprocessed dataset including additional features.
+
 If you have set up [kaggle-api](https://github.com/Kaggle/kaggle-api), use following commands.
 ```
 kaggle datasets download -d hoyso48/stanford-ribonanza-rna-folding-dataset -p ./datamount
