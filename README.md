@@ -6,9 +6,9 @@ see https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussio
 
 **Keypoints:**
 
-- Squeezeformer + GRU head.
+- Squeezeformer[1] + GRU head.
 - Simple Conv2DNet for bpp, adding it as a bias to the attention matrix.
-- AliBi positional encoding[1] for robust generalization on longer sequences.
+- AliBi positional encoding[2] for robust generalization on longer sequences.
 - Weighted loss with signal_to_noise, with longer epochs.
 - Additional features for minor score improvements.
 
