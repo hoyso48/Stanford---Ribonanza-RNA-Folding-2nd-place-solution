@@ -37,7 +37,7 @@ class CFG:
     device = 'cuda'
     # grad_accumulation = 1
     clip_grad = 3.0
-    lr = 2e-3 #for stability, 4e-3 is slightly better
+    lr = 2e-3 #for stability. 4e-3 is slightly better in scores.
     weight_decay = 0.01
     epoch = 60 
     warmup = 0.01
