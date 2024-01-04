@@ -1,6 +1,6 @@
 ## Stanford - Ribonanza RNA Folding 2nd place solution
 
-This repository contains the codebase to reproduce the 2nd-place solution to the Stanford - Ribonanza RNA Folding competition on kaggle. 
+2nd-place solution to the Stanford - Ribonanza RNA Folding competition on kaggle. 
 
 see https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460316 for more details
 
