@@ -1,1 +1,1 @@
-python infer.py
+python ../src/infer.py
