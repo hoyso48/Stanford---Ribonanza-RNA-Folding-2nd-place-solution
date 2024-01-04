@@ -52,3 +52,12 @@ unzip ./datamount/stanford-ribonanza-rna-folding-dataset.zip
 
 Or manually download  the data https://www.kaggle.com/datasets/hoyso48/stanford-ribonanza-rna-folding-dataset in the folder './datamount' and unzip it.
 Or you can follow notebooks in the folder 'prepare_data' to generate additional features yourself.
+
+4. training / inference to generate submission.parquet
+```
+chmod +x ./scripts/run_5fold_snfilter1_ep60.sh #(optional)5fold training, to check validation score with minimal config.
+chmod +x ./scripts/run_4seed_snfilter0_ep200.sh #4x seed training using all training data
+chmod +x ./scripts/run_make_submission.sh #inference and generate submission file
+chmod +x ./scripts/run_all.sh #run all above
+./scripts/run_all.sh
+```
