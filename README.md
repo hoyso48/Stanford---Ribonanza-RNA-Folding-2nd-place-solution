@@ -28,6 +28,7 @@ these features only marginally helped (about -0.0005). Therefore, I believe thes
 ![](model_architecture.png)
 
 ## Preparations
+install required packages
 ```
 git clone https://github.com/hoyso48/Stanford---Ribonanza-RNA-Folding-2nd-place-solution
 cd Stanford---Ribonanza-RNA-Folding-2nd-place-solution
