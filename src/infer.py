@@ -134,7 +134,8 @@ def merge_submissions(sub_dfs, clip=True, weights=None, plot=True):
 def make_submission(cfg, model_paths, df, filename='submission.parquet', weights=None, clip=True, exist_skip=True, output_dir='.', pq_suffix=''):
     fns = []
     for p in model_paths:
-        fn = f'{output_dir}/{p.split('/')[-1][:-4]}{pq_suffix}.parquet'
+        fname = p.split('/')[-1][:-4]
+        fn = f'{output_dir}/{fname}{pq_suffix}.parquet'
         if exist_skip and os.path.isfile(fn):
             print(f'file {fn} already exists, skip prediction')
             fns.append(fn)
